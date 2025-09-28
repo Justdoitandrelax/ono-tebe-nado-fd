@@ -15,13 +15,13 @@
     <header class="header">
       <nav class="menu">
         <ul class="links_list">
-          <li class="link_active"><a href="#0">главная</a></li>
+          <li class="Link link_active"><a href="#0">главная</a></li>
           <li class="link"><a href="#0">посмотреть лоты</a></li>
           <li class="link"><a href="#0">об аукционе</a></li>
         </ul>
       </nav>
       <a>
-        <img class="image" src="images/logo-black.svg" alt="логотип черный"/>
+        <img class="image" src="images/logo-black.svg" alt="логотип черный" />
       </a>
       <address class="contacts header_contacts">
         <a class="contacts_link" href="tel:+99995555555">+9 999 555 5555</a>
@@ -34,35 +34,26 @@
 
     <main>
       <!--cover-->
-      <div class="overlay">
-        <section class="cover">
-          <h1 class="cover__title aligned-text">
-            <div class="aligned-text_left">
-              <span class=" letter-spacing-extended">оно</span>
-            </div>
-            <div class="aligned-text_center">
-              <span class=" letter-spacing-extended">тебе</span>
-            </div>
-            <div class="aligned-text_right">
-              <span class=" letter-spacing-extended">над<span class="no-letter-spacing">о</span></span>
-            </div>
-          </h1>
-          <div class="cover__description">
-            <p class="cover__description-text">аукцион вещей, в которые никто не верил</p>
-            <button class="button">сделать ставку</button>
-          </div>
-        </section>
-      </div>
+      <section class="cover overlay">
+        <h1 class="cover__title aligned-text">
+            <span class=" letter-spacing-extended aligned-text_left">оно</span>
+            <span class=" letter-spacing-extended aligned-text_center">тебе</span>
+            <span class=" letter-spacing-extended aligned-text_right">над<span class="no-letter-spacing">о</span></span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">аукцион вещей, в которые никто не верил</p>
+          <button class="button">сделать ставку</button>
+        </div>
+      </section>
 
       <!--lots-->
       <section class="lots">
         <h2 class="lots__heading">лоты</h2>
 
         <ul class="lots__card-list">
-          <div class="overlay">
             <li class="lots__card-list-item card_type_film">
               <a class="card_link" href="#0">
-                <article class="card">
+                <article class="card overlay">
                   <h3 class="card__title">
                     фильм режиссёра, который бросил киношколу
                   </h3>
@@ -74,12 +65,10 @@
                 </article>
               </a>
             </li>
-          </div>
 
-          <div class="overlay">
             <li class="lots__card-list-item card_type_book">             
               <a class="card_link" href="#0">
-                <article class="card">
+                <article class="card overlay">
                   <h3 class="card__title">
                     книга, где описан один скучный день из жизни рекламного агента
                   </h3>
@@ -94,12 +83,10 @@
                 </article>
               </a>
             </li>
-          </div>
 
-          <div class="overlay">
             <li class="lots__card-list-item card_type_picture">
               <a class="card_link" href="#0">
-                <article class="card">
+                <article class="card overlay">
                   <h3 class="card__title">
                     картина, которую повторит даже 5-летний сын маминой подруги
                   </h3>
@@ -112,7 +99,6 @@
                 </article>
               </a>
             </li>
-          </div>
         </ul>
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
@@ -171,13 +157,13 @@
       <div class="footer__social-list">
         <div class="footer__social-list-item">
           <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="images/yt.svg" alt="ютюб"/>
+            <img class="footer__social-icon" src="images/yt.svg" alt="ютюб" />
           </a>
           <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="images/vk.svg" alt="вконтакте"/>
+            <img class="footer__social-icon" src="images/vk.svg" alt="вконтакте" />
           </a>
           <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="images/pinterest.svg" alt="питнерест"/>
+            <img class="footer__social-icon" src="images/pinterest.svg" alt="питнерест" />
           </a>
         </div>
       </div>
